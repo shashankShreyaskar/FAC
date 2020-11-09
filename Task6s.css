@@ -1,0 +1,51 @@
+#content{
+	text-align: center;
+	padding-top: 25%;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}                 
+body{
+	background: url(https://images.unsplash.com/photo-1542231624-979f1e683a15?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80);
+    background-size: cover;
+    background-position: center;
+    font-family: "lato";	
+    color:white;
+}
+
+html{
+	height: 100%;
+}
+h1{
+	font-weight: 900;
+	font-size:4.5em;
+}
+span{
+	font-family: "Inconsolata";
+	font-weight: 600;
+	font-size:0.7em;
+}
+p{
+font-weight: 400;
+font-size: 1.5em;
+}
+hr {
+    border: 5px;
+    height: 3px;
+    /*border-top: 1px solid #f8f8f8;*/
+    /*border-bottom: 1px solid rgba(0,0,0,0.4);*/
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+.navbar-inverse {
+ background: rgba(0,0,0,0.4);
+ }
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: rgba(100,100,10,0.4);
+}
